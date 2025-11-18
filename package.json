@@ -1,6 +1,6 @@
 {
     "name": "@literacyfanatic/eslint-config",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Reusable modular flat ESLint configuration package.",
     "license": "MIT",
     "private": false,
@@ -82,7 +82,7 @@
         "eslint-plugin-react-refresh": "^0.4.24",
         "typescript": "^5.9.3",
         "typescript-eslint": "^8.47.0",
-        "vitest": "4.0.10"
+        "vitest": "^4.0.10"
     },
     "devDependencies": {
         "@cspell/eslint-plugin": "9.3.2",
