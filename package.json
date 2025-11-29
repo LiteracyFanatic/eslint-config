@@ -1,16 +1,14 @@
 {
     "name": "@literacyfanatic/eslint-config",
     "version": "0.1.1",
-    "description": "Reusable modular flat ESLint configuration package.",
-    "license": "MIT",
     "private": false,
-    "type": "module",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
+    "description": "Reusable modular flat ESLint configuration package.",
     "keywords": [
         "eslint",
         "eslintconfig"
     ],
+    "license": "MIT",
+    "type": "module",
     "exports": {
         ".": {
             "import": "./dist/index.js",
@@ -57,6 +55,8 @@
             "types": "./dist/vitest.d.ts"
         }
     },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "files": [
         "dist"
     ],
@@ -66,32 +66,12 @@
         "prepublishOnly": "npm run build",
         "test": "vitest run"
     },
-    "peerDependencies": {
-        "@cspell/eslint-plugin": "^9.3.2",
-        "@eslint/compat": "^2.0.0",
-        "@eslint/js": "^9.39.1",
-        "@stylistic/eslint-plugin": "^5.5.0",
-        "@vitest/eslint-plugin": "^1.4.3",
-        "eslint": "^9.39.1",
-        "eslint-import-resolver-typescript": "^4.4.4",
-        "eslint-plugin-import": "^2.32.0",
-        "eslint-plugin-package-json": "^0.83.0",
-        "eslint-plugin-paths": "^1.1.0",
-        "eslint-plugin-playwright": "^2.3.0",
-        "eslint-plugin-react-hooks": "^7.0.1",
-        "eslint-plugin-react-refresh": "^0.4.24",
-        "typescript": "^5.9.3",
-        "typescript-eslint": "^8.47.0",
-        "vitest": "^4.0.10"
-    },
-    "devDependencies": {
+    "dependencies": {
         "@cspell/eslint-plugin": "9.3.2",
         "@eslint/compat": "2.0.0",
         "@eslint/js": "9.39.1",
         "@stylistic/eslint-plugin": "5.6.1",
-        "@types/node": "24.10.1",
         "@vitest/eslint-plugin": "1.5.0",
-        "eslint": "9.39.1",
         "eslint-import-resolver-typescript": "4.4.4",
         "eslint-plugin-import": "2.32.0",
         "eslint-plugin-package-json": "0.85.0",
@@ -99,8 +79,17 @@
         "eslint-plugin-playwright": "2.3.0",
         "eslint-plugin-react-hooks": "7.0.1",
         "eslint-plugin-react-refresh": "0.4.24",
+        "typescript-eslint": "8.48.0"
+    },
+    "devDependencies": {
+        "@types/node": "24.10.1",
+        "eslint": "9.39.1",
         "typescript": "5.9.3",
-        "typescript-eslint": "8.48.0",
         "vitest": "4.0.14"
+    },
+    "peerDependencies": {
+        "eslint": "^9.39.1",
+        "typescript": "^5.9.3",
+        "vitest": "^4.0.14"
     }
 }
