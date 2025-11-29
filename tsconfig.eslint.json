@@ -9,5 +9,8 @@
         "vitest.config.ts",
         "tests/**/*.ts",
         "tests/**/*.tsx"
+    ],
+    "exclude": [
+        "tests/fixtures/"
     ]
 }
