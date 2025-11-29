@@ -17,9 +17,7 @@ export const packageJsonRules = defineConfig([
             'package-json/restrict-dependency-ranges': [
                 'error',
                 { rangeType: 'pin' }
-            ],
-            'package-json/order-properties': 'off',
-            'package-json/sort-collections': 'off'
+            ]
         }
     }
 ]);
