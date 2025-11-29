@@ -7,16 +7,7 @@ Reusable, flat ESLint configuration presets for TypeScript/JavaScript, React, Vi
 Install this package and its peer dependencies into your project:
 
 ```bash
-npm install --save-dev @literacyfanatic/eslint-config \
-  eslint @eslint/js @eslint/compat \
-  @stylistic/eslint-plugin \
-  eslint-plugin-import eslint-import-resolver-typescript eslint-plugin-paths \
-  eslint-plugin-package-json \
-  eslint-plugin-playwright \
-  eslint-plugin-react-hooks eslint-plugin-react-refresh \
-  @cspell/eslint-plugin \
-  @vitest/eslint-plugin \
-  typescript typescript-eslint
+npm install --save-dev @literacyfanatic/eslint-config eslint typescript vitest
 ```
 
 ## Usage
